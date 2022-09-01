@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       initialRoute: 'scroll_design',
       routes: {
         'basic_design': (_) => const BasicDesignScreen(),
-        'scroll_design': (_) => const ScrollDesignScrenn()
+        'scroll_design': (_) => const ScrollDesignScreen()
       },
     );
   }
