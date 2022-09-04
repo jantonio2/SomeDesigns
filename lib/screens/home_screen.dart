@@ -13,7 +13,8 @@ class HomeScreen extends StatelessWidget {
           Background(),
           _HomeBody()
         ],
-      )
+      ),
+      bottomNavigationBar: const CustomBottomNavigation(),
     );
   }
 
